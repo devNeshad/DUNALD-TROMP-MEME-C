@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta Tags for Character Encoding and Viewport -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dunald-Tromp</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Manrope:wght@200..800&display=swap"
+    rel="stylesheet">
+  <!-- Tailwind CSS CDN link for easy setup -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- style.css -->
+
+  <!-- Custom Tailwind Configuration -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            // Custom Colors for the Design
+            clifford: '#da373d', // Red color
+            bg1: "#3ea66b",       // Green color
+            bg2: "#fffbe0",  // Light yellow color
+            yellowBg: "#ffd83f"
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class=""> <!-- Grid layout for the page -->
+  <main>
+    <!-- Section 2: Tokenomic Information -->
+    <section class="bg-bg2  px-4 py-10  md:py-16 lg:py-20 ">
+      <div class="container mx-auto">
+        <!-- Tokenomics Title -->
+        <div class="flex  justify-center pb-5">
+          <div
+            class="bg-yellowBg self-center    px-6 md:px-10 lg:px-16 py-2 border-2 border-black rounded-sm  uppercase flex  items-center relative ">
+            <!-- image -->
+            <img class=" h-7   lg:h-10 absolute     -left-4  md:-left-5   lg:-left-5  " src="./image/doller.svg"
+              alt="$$$" />
+            <!-- title -->
+            <h2 class=" text-xl md:text-[30px]   lg:text-[36px] font-bold  ">To​kenomic</h2>
+          </div>
+        </div>
+        <!-- content -->
+        <div class=" md:flex justify-between  md:gap-10 lg:gap-20 md:h-[500px] space-y-4  md:space-y-0">
+          <!-- Card 1: LP Burn Information -->
+          <div
+            class=" h-full  md:w-[40%] lg:w-[30%] bg-bg1 flex flex-col items-center justify-between text-center gap-2 border-2 border-black rounded-sm py-7 ">
+            <h3 class=" text-2xl md:text-3xl  lg:text-3xl   text-white font-bold ">LP burn</h3>
+            <img class="w-[50%] md:w-[200px] lg:w-[200px] " src="./image/fire.svg" alt="LP Burn Image">
+          </div>
+          <!-- Card 1: LP Burn Information -->
+          <div
+            class=" h-full  md:w-[45%] bg-bg1 flex flex-col items-center justify-between text-center gap-2 border-2 border-black rounded-sm py-7 ">
+            <h3 class="text-2xl md:text-3xl  lg:text-3xl  uppercase text-white font-bold ">supply</h3>
+            <h3 class="text-2xl md:text-3xl  lg:text-3xl  text-white font-bold ">1,000,000,000</h3>
+            <img class="w-[50%] md:w-[300px] lg:w-[230px] " src="./image/track.svg" alt="LP Burn Image">
+          </div>
+          <!-- Card 1: LP Burn Information -->
+          <div
+            class=" h-full  md:w-[40%] lg:w-[30%]  bg-bg1 flex flex-col items-center justify-between text-center gap-2 border-2 border-black rounded-sm py-7 ">
+            <h3 class="text-2xl md:text-3xl  lg:text-3xl  text-white font-bold ">0% TAX</h3>
+            <img class="w-[50%] md:w-[200px] lg:w-[200px] " src="./image/tax-book.svg" alt="LP Burn Image">
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="">
+    <!-- Footer Text -->
+    © 2024 Dunald Tromp
+  </footer>
+
+</body>
+
+</html>
